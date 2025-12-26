@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     background: #f1f5f9;
+    transition: 0.3s;
 }
 
 .container {
     width: 320px;
-    margin: 70px auto;
+    margin: 60px auto;
     background: white;
     padding: 20px;
     border-radius: 8px;
@@ -22,4 +23,22 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.dark-btn {
+    background: #333;
+}
+
+/* 🌙 DARK MODE */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark .container {
+    background-color: #1e1e1e;
+}
+
+.dark button {
+    background-color: #444;
 }
